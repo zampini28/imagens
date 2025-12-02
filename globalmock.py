@@ -1,7 +1,7 @@
 import requests, random, string, base64
 
-# BASE_URL = "https://neobackend.fly.dev"
-BASE_URL = "http://localhost:8080"
+BASE_URL = "https://neobackend.fly.dev"
+# BASE_URL = "http://localhost:8080"
 COMMON_PASS = "password123"
 
 def fetch_image_as_base64(url: str) -> str:
